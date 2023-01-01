@@ -1,0 +1,17 @@
+body {
+    display: grid;
+    background: #000000;
+    height: 800px;
+    place-items: center;
+    place-content: center;
+}
+
+#actualDate {
+    color: #ffffff;
+    font-size: 100px;
+}
+
+#actualDate::selection {
+    color: #000000;
+    background: #ffffff;                
+}
